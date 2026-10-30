@@ -1,0 +1,33 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.164",
+    "@types/node": "^26.6.4",
+    "@types/uuid": "^10.0.0",
+    "aws-cdk": "^2.1142.0",
+    "aws-cdk-lib": "^2.270.0",
+    "constructs": "^10.8.1",
+    "esbuild": "^0.28.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "uuid": "^14.0.2"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^6.21.1",
+    "@aws-sdk/client-cognito-identity": "^3.1152.0",
+    "@aws-sdk/client-dynamodb": "^3.1146.0",
+    "@aws-sdk/credential-providers": "^3.1152.0",
+    "@aws-sdk/lib-dynamodb": "^3.1146.0",
+    "@aws-sdk/util-dynamodb": "^3.996.9",
+    "aws-amplify": "^6.22.1"
+  }
+}

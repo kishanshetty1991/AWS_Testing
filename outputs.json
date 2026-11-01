@@ -1,0 +1,21 @@
+{
+  "DataStack": {
+    "ExportsOutputFnGetAttKishanTableBB595606Arn7A384F4E": "arn:aws:dynamodb:ap-south-1:180940738546:table/KishanTable-02ee3dd6b091",
+    "ExportsOutputRefKishanTableBB5956061206BB04": "KishanTable-02ee3dd6b091"
+  },
+  "AuthStack": {
+    "ExportsOutputFnGetAttUserPool6BA7E5F2Arn686ACC00": "arn:aws:cognito-idp:ap-south-1:180940738546:userpool/ap-south-1_a9OMXJjWn",
+    "SpacesUserPoolClientId": "6a8s9lfdu0of1ictdct1883avu",
+    "SpacesUserPoolId": "ap-south-1_a9OMXJjWn",
+    "SpaceIdentityPoolId": "ap-south-1:5f4658e5-d6cb-46d9-aed2-83fdaf69460f"
+  },
+  "LambdaStack": {
+    "ExportsOutputFnGetAttSpacesLambdaA5F923A4ArnE59FF2BB": "arn:aws:lambda:ap-south-1:180940738546:function:LambdaStack-SpacesLambdaA5F923A4-ml3VhBlLm1d1"
+  },
+  "UiDeploymentStack": {
+    "TestProjectUrl": "d33chell633jwx.cloudfront.net"
+  },
+  "ApiStack": {
+    "KishanApiEndpoint9522BE59": "https://jlktnm0rc1.execute-api.ap-south-1.amazonaws.com/prod/"
+  }
+}
